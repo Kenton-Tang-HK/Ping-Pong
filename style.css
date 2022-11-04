@@ -1,0 +1,35 @@
+@font-face {
+    font-family: retro;
+    src: url(PressStart2P-vaV7.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    cursor: none;
+  }
+  
+canvas {
+    margin-top: 25px;
+    z-index: 10;
+    cursor: crosshair;
+}
+  
+  /* Monitor and Larger */
+@media screen and (min-width: 1800px) {
+    canvas {
+      margin-top: 0px;
+    }
+}
+  
+/* Large Smartphone (Vertical) */
+@media screen and (max-width: 500px) {
+    canvas {
+      width: 100%;
+      height: 700px;
+      margin-top: 50px;
+    }
+  
+}
