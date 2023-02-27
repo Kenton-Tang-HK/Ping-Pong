@@ -8,9 +8,9 @@ const SETTINGS = {
     buttonColour: "white",
     buttonTextColour: "black",
 
-    paddleSound: '/Sounds/Paddle.wav',
-    wallSound: '/Sounds/Wall.wav',
-    scoreSound: '/Sounds/Score.wav',
+    paddleSound: '/Paddle.wav',
+    wallSound: '/Wall.wav',
+    scoreSound: '/Score.wav',
 
     fps: 60,
     courtColour: "black",
